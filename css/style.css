@@ -1,0 +1,63 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/mechatronics-image.jpg');
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: #537BFC;
+	width:  600px;
+	color: white;
+	padding: 15px;
+	opacity: 95%;
+}
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+
+
+.column {
+  float: left;
+  width: 5%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+	background: #D9FF00;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: 'Orbitron', sans-serif;
+}
+a {
+	color: #D9FF00;
+	text-decoration: none;
+}
